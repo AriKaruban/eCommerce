@@ -1,5 +1,6 @@
 .blob{ 
     position: fixed;
+    z-index: -1;
 }
 .left{
     top: 20%;
@@ -11,4 +12,21 @@
 .bottom{
     bottom: 0;
     right: 0;
+}
+.column{
+    z-index: 5;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 50%;
+    margin-left: 25%;
+    column-gap: 40px;
+    div{
+        height: 75vh;
+        background-color: #fff;
+        border-radius: 20px;
+        box-shadow: 0 0 30px 5px #b8b7ce;
+        padding: 10px;
+        padding-right: 0;
+        overflow-y: hidden;
+    }
 }

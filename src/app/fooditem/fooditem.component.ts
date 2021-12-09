@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-fooditem',
@@ -6,7 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./fooditem.component.scss']
 })
 export class FooditemComponent implements OnInit {
-
+  @Input() name
+  @Input() price
+  @Input() image
+  @Input() color
   constructor() { }
 
   ngOnInit(): void {
