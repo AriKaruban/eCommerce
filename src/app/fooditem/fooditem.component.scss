@@ -9,6 +9,10 @@
     "img price"
     "img  addcart";
 }
+p{
+    margin: 0;
+    margin-top: 10px;
+}
 .img{
     grid-area: img;
     max-width: 100%;
@@ -18,9 +22,13 @@
 }
 .food{
     grid-area: food;
+    font-family: 'Montserrat'; 
 }
 .price{
     grid-area: price;
+    font-size: 2em;
+    font-family: 'Poppins'; 
+    font-weight: 700; 
 }
 .addcart{
     grid-area: addcart;
