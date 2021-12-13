@@ -1,0 +1,13 @@
+.cart{
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 30px; 
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    max-height: 80%;
+    overflow-y: scroll;
+}
+h1{
+  margin-left: 25px;
+}

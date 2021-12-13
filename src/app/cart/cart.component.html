@@ -1,1 +1,9 @@
-<p>cart works!</p>
+<h1>Your Cart</h1>
+<div class="cart" *ngIf="cart.length>0">
+<div *ngFor='let item of cart'>
+  <!-- <app-cartitem [name]=item.name [price]="item.price | currency" [image]=item.img [color]='colorpicker()'></app-cartitem> -->
+</div>
+</div>
+<div class="cart" *ngIf="cart.length==0">
+<p>Your cart is empty.</p>
+    </div>
